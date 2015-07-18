@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, EntertainmentActivity!</string>
+    <string name="app_name">Entertainment</string>
+    <string name="Exit">Exit</string>
+    <string name="ListAllStock">List All Stock</string>
+    <string name="AddStock">Add Stock</string>
+    <string name="addStock">Add</string>
+    <string name="name">name</string>
+    <string name="description">description</string>
+    <string name="returnToMain">return</string>
+    <string name="perishable">perishable?</string>
+    <string-array name="stock"></string-array>
+    <color name="bkColor">#3366FF</color>
+    <string name="empty">N/A</string>
+
+</resources>

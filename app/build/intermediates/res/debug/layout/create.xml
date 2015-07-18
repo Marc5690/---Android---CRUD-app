@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.40" >
+
+        <EditText
+            android:id="@+id/nameText"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" >
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/itemNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/nameText"
+            android:layout_alignBottom="@+id/nameText"
+            android:layout_alignParentLeft="true"
+            android:text="@string/name"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/editItem"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/addItem" />
+
+        <Button
+            android:id="@+id/listItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editItem"
+            android:layout_alignRight="@+id/editItem"
+            android:layout_below="@+id/editItem"
+            android:layout_marginTop="44dp"
+            android:text="@string/returnToMain" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/descriptionText"
+            android:layout_below="@+id/nameText"
+            android:layout_alignParentRight="true"
+            android:layout_alignLeft="@+id/nameText" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/quantityText"
+            android:layout_below="@+id/descriptionText"
+            android:layout_alignParentRight="true"
+            android:layout_alignLeft="@+id/descriptionText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/description"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/itemNameLabel"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/editItem"
+            android:layout_above="@+id/quantityText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/quantity"
+            android:id="@+id/textView3"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignBottom="@+id/quantityText"
+            android:layout_alignRight="@+id/textView2" />
+
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/Marc/AndroidStudioProjects/entertainment/app/src/main/res/layout/create.xml -->

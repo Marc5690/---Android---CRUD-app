@@ -1,0 +1,118 @@
+ 
+  Sticky broadcasts:
+  * Sticky action android.intent.action.BATTERY_CHANGED:
+    Intent: act=android.intent.action.BATTERY_CHANGED flg=0x60000000
+      Bundle[{icon-small=17302161, present=false, scale=100, level=0, technology=Li-ion, status=4, voltage=0, plugged=1, health=4, temperature=0}]
+  * Sticky action android.net.thrott.THROTTLE_ACTION:
+    Intent: act=android.net.thrott.THROTTLE_ACTION
+      Bundle[{level=-1}]
+  * Sticky action android.intent.action.NETWORK_SET_TIMEZONE:
+    Intent: act=android.intent.action.NETWORK_SET_TIMEZONE flg=0x20000000
+      Bundle[mParcelledData.dataSize=48]
+  * Sticky action android.provider.Telephony.SPN_STRINGS_UPDATED:
+    Intent: act=android.provider.Telephony.SPN_STRINGS_UPDATED flg=0x20000000
+      Bundle[mParcelledData.dataSize=156]
+  * Sticky action android.net.thrott.POLL_ACTION:
+    Intent: act=android.net.thrott.POLL_ACTION
+      Bundle[{cycleRead=0, cycleStart=1434585600001, cycleEnd=1437177600000, cycleWrite=0}]
+  * Sticky action android.intent.action.SIM_STATE_CHANGED:
+    Intent: act=android.intent.action.SIM_STATE_CHANGED flg=0x20000000
+      Bundle[mParcelledData.dataSize=116]
+  * Sticky action android.intent.action.SIG_STR:
+    Intent: act=android.intent.action.SIG_STR flg=0x20000000
+      Bundle[{EvdoSnr=-1, CdmaDbm=-1, GsmBitErrorRate=-1, CdmaEcio=-1, EvdoDbm=-1, GsmSignalStrength=7, EvdoEcio=-1, isGsm=true}]
+  * Sticky action android.intent.action.SERVICE_STATE:
+    Intent: act=android.intent.action.SERVICE_STATE flg=0x20000000
+      Bundle[{cdmaRoamingIndicator=0, operator-numeric=310260, networkId=0, state=0, emergencyOnly=false, operator-alpha-short=Android, radioTechnology=3, manual=false, cssIndicator=false, operator-alpha-long=Android, systemId=0, roaming=false, cdmaDefaultRoamingIndicator=0}]
+  * Sticky action android.net.conn.CONNECTIVITY_CHANGE:
+    Intent: act=android.net.conn.CONNECTIVITY_CHANGE flg=0x30000000
+      Bundle[{networkInfo=NetworkInfo: type: mobile[UMTS], state: CONNECTED/CONNECTED, reason: simLoaded, extra: internet, roaming: false, failover: false, isAvailable: true, reason=simLoaded, extraInfo=internet}]
+  * Sticky action android.intent.action.NETWORK_SET_TIME:
+    Intent: act=android.intent.action.NETWORK_SET_TIME flg=0x20000000
+      Bundle[mParcelledData.dataSize=36]
+  * Sticky action android.media.RINGER_MODE_CHANGED:
+    Intent: act=android.media.RINGER_MODE_CHANGED flg=0x70000000
+      Bundle[{android.media.EXTRA_RINGER_MODE=2}]
+  * Sticky action android.intent.action.ANY_DATA_STATE:
+    Intent: act=android.intent.action.ANY_DATA_STATE flg=0x20000000
+      Bundle[{state=CONNECTED, apnType=*, iface=/dev/omap_csmi_tty1, apn=internet, reason=simLoaded}]
+ 
+  Activity stack:
+  * TaskRecord{4604ce80 #2 A com.android.launcher}
+    clearOnBackground=true numActivities=1 rootWasReset=false
+    affinity=com.android.launcher
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.android.launcher/com.android.launcher2.Launcher}
+    realActivity=com.android.launcher/com.android.launcher2.Launcher
+    lastActiveTime=4764229 (inactive for 383s)
+    * Hist #0: HistoryRecord{45f37c40 com.android.launcher/com.android.launcher2.Launcher}
+        packageName=com.android.launcher processName=com.android.launcher
+        launchedFromUid=0 app=ProcessRecord{45fb1040 123:com.android.launcher/10025}
+        Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.android.launcher/com.android.launcher2.Launcher }
+        frontOfTask=true task=TaskRecord{4604ce80 #2 A com.android.launcher}
+        taskAffinity=com.android.launcher
+        realActivity=com.android.launcher/com.android.launcher2.Launcher
+        base=/system/app/Launcher2.apk/system/app/Launcher2.apk data=/data/data/com.android.launcher
+        labelRes=0x7f0c0002 icon=0x7f020044 theme=0x7f0d0000
+        stateNotNeeded=true componentSpecified=false isHomeActivity=true
+        configuration={ scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=3/1 orien=1 layout=34 uiMode=17 seq=3}
+        launchFailed=false haveState=false icicle=null
+        state=RESUMED stopped=false delayedResume=false finishing=false
+        keysPaused=false inHistory=true persistent=false launchMode=2
+        fullscreen=true visible=true frozenBeforeDestroy=false thumbnailNeeded=false idle=true
+        waitingVisible=false nowVisible=true
+ 
+  Running activities (most recent first):
+    TaskRecord{4604ce80 #2 A com.android.launcher}
+      Run #0: HistoryRecord{45f37c40 com.android.launcher/com.android.launcher2.Launcher}
+ 
+  mPausingActivity: null
+  mResumedActivity: HistoryRecord{45f37c40 com.android.launcher/com.android.launcher2.Launcher}
+  mFocusedActivity: HistoryRecord{45f37c40 com.android.launcher/com.android.launcher2.Launcher}
+  mLastPausedActivity: null
+ 
+  mCurTask: 9
+ 
+  Running processes (most recent first):
+    App  #15: adj=vis  /F 4607b850 107:jp.co.omronsoft.openwnn/10023 (service)
+              jp.co.omronsoft.openwnn.OpenWnnJAJP<=ProcessRecord{45ec1210 58:system/1000}
+    PERS #14: adj=sys  /F 45ec1210 58:system/1000 (fixed)
+    App  #13: adj=fore /F 45fb1040 123:com.android.launcher/10025 (top-activity)
+    App  #12: adj=bak  /B 460eb358 323:com.svox.pico/10028 (bg-empty)
+    App  #11: adj=bak+1/B 460b9d70 242:com.android.defcontainer/10010 (bg-empty)
+    App  #10: adj=bak+2/B 460cd2a8 7548:r.a.rottenalive/10038 (bg-empty)
+    App  # 9: adj=bak+3/B 460a07c8 200:com.android.quicksearchbox/10012 (bg-empty)
+    App  # 8: adj=bak+4/B 46054768 186:com.android.music/10022 (bg-empty)
+    App  # 7: adj=bak+5/B 460a29f0 210:com.android.protips/10007 (bg-empty)
+    PERS # 6: adj=core /F 4607ffa0 111:com.android.phone/1001 (fixed)
+    App  # 5: adj=bak+6/B 46044be0 281:com.android.email/10030 (bg-empty)
+    App  # 4: adj=bak+7/B 4602e3d0 266:com.android.mms/10015 (bg-empty)
+    App  # 3: adj=empty/B 460a5cf8 223:android.process.media/10002 (bg-empty)
+    App  # 2: adj=empty/B 45fa03e0 164:com.android.alarmclock/10009 (bg-empty)
+    App  # 1: adj=empty/B 46014cb8 153:android.process.acore/10000 (bg-empty)
+    App  # 0: adj=empty/B 4600f7a8 124:com.android.settings/1000 (bg-empty)
+ 
+  PID mappings:
+    PID #58: ProcessRecord{45ec1210 58:system/1000}
+    PID #107: ProcessRecord{4607b850 107:jp.co.omronsoft.openwnn/10023}
+    PID #111: ProcessRecord{4607ffa0 111:com.android.phone/1001}
+    PID #123: ProcessRecord{45fb1040 123:com.android.launcher/10025}
+    PID #124: ProcessRecord{4600f7a8 124:com.android.settings/1000}
+    PID #153: ProcessRecord{46014cb8 153:android.process.acore/10000}
+    PID #164: ProcessRecord{45fa03e0 164:com.android.alarmclock/10009}
+    PID #186: ProcessRecord{46054768 186:com.android.music/10022}
+    PID #200: ProcessRecord{460a07c8 200:com.android.quicksearchbox/10012}
+    PID #210: ProcessRecord{460a29f0 210:com.android.protips/10007}
+    PID #223: ProcessRecord{460a5cf8 223:android.process.media/10002}
+    PID #242: ProcessRecord{460b9d70 242:com.android.defcontainer/10010}
+    PID #266: ProcessRecord{4602e3d0 266:com.android.mms/10015}
+    PID #281: ProcessRecord{46044be0 281:com.android.email/10030}
+    PID #323: ProcessRecord{460eb358 323:com.svox.pico/10028}
+    PID #7548: ProcessRecord{460cd2a8 7548:r.a.rottenalive/10038}
+ 
+  Time since processes crashed:
+    Process ie.ds.wit uid 10037: last crashed 383146 ms ago
+ 
+  mHomeProcess: ProcessRecord{45fb1040 123:com.android.launcher/10025}
+  mConfiguration: { scale=1.0 imsi=310/260 loc=en_US touch=3 keys=1/1/2 nav=3/1 orien=1 layout=34 uiMode=17 seq=3}
+  mConfigWillChange: false
+  mSleeping=false mShuttingDown=false

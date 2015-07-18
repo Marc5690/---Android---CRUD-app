@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Marc/AndroidStudioProjects/entertainment/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <color name="bkColor">#3366FF</color>
+    <string name="addItem">Add</string>
+    <string name="app_name">Entertainment</string>
+    <string name="cancel">Cancel</string>
+    <string name="description">Desc:</string>
+    <string name="exit">Exit</string>
+    <string name="listItems">List Items</string>
+    <string name="name">Name:</string>
+    <string name="quantity">Quantity:</string>
+    <string name="returnToMain">return</string>
+    <string name="updateItem">Update</string>
+</resources>

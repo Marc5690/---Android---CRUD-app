@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Stock Taking App</string>
+    <string name="listItems">List Items</string>
+    <string name="exit">Exit</string>
+    <string name="cancel">Cancel</string>
+    <string name="addItem">Add</string>
+    <string name="updateItem">Update</string>
+    <string name="name">Name:</string>
+    <string name="description">Desc:</string>
+    <string name="quantity">Quantity:</string>
+    <string name="returnToMain">return</string>
+    <color name="bkColor">#3366FF</color>
+
+</resources>
